@@ -1,0 +1,9 @@
+docker run nginx
+docker pull nginx
+docker run -d nginx
+docker run -it nginx
+docker ps
+docker ps -a
+docker rm nginx_container
+docker rmi nginx_image
+docker run --name mycontainer nginx
