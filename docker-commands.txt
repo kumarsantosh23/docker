@@ -7,3 +7,5 @@ docker ps -a
 docker rm nginx_container
 docker rmi nginx_image
 docker run --name mycontainer nginx
+docker run -p 3172:8080 jenkis ( Port 3172 outside host to coonect, port 8080 is container port)
+docker run -p 3172:8080 -v /your/home:/var/jenkins_home jenkins ( Mounting the volumes)
