@@ -18,3 +18,4 @@ docker push image_name ( you need to login to docker registry first)
 docker-compose up
 Volume mounting - Mounts the default volume from /var/lib/volumes to containers
 Bind Volume mount - Mounts the any directory from docker host to containers
+docker network ls
