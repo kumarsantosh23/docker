@@ -15,3 +15,4 @@ docker build -t webapp-color:lite .
 docker run -d ubuntu sleep 1000
 docker login ( id and password )
 docker push image_name ( you need to login to docker registry first)
+docker-compose up
