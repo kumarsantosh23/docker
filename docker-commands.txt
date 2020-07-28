@@ -13,3 +13,5 @@ docker run --name myql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 docker inspect containerid(container name)
 docker build -t webapp-color:lite .
 docker run -d ubuntu sleep 1000
+docker login ( id and password )
+docker push image_name ( you need to login to docker registry first)
