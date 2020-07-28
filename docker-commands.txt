@@ -12,3 +12,4 @@ docker run -p 3172:8080 -v /your/home:/var/jenkins_home jenkins ( Mounting the v
 docker run --name myql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 docker inspect containerid(container name)
 docker build -t webapp-color:lite .
+docker run -d ubuntu sleep 1000
